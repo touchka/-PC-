@@ -1,0 +1,139 @@
+.hp_display_flex {
+    display: flex;
+}
+.hp_margon_right24 {
+    margin-right: 24px;
+}
+.hp_margin_top24 {
+    margin-top: -24px;
+}
+.hp_margin_top32 {
+    margin-top: -32px;
+}
+.inner {
+    padding: 24px 36px;
+}
+.bl_rental {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border:1px solid #EEE;
+    box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+    -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+    -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+}
+.ly_rental {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    margin-top: 48px;
+}
+.el_rental_ttl_sub {
+    font-size: 20px;
+    font-weight: bold;
+}
+.el_rental_ttl {
+    font-size: 40px;
+    font-weight: bold;
+}
+.ly_rental_ttl {
+    margin-top: -4px;
+}
+.el_rental_place {
+    font-size: 20px;
+}
+.ly_rental_place {
+    margin-right: 20px;
+}
+.el_rental_number {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Helvetica;
+}
+.el_pc_img_sp {
+    display: none;
+}
+.el_line {
+    width: 100%;
+}
+.ly_rental_content_box_top {
+    margin-top: -24px;
+}
+.ly_rental_content_box {
+    margin-top: -32px;
+}
+.bl_rental_details_main {
+    font-size: 24px;
+    font-weight: bold;
+}
+.ly_rental_details_main {
+    margin-right: 20px;
+}
+.bl_rental_details_sub {
+    font-size: 24px;
+}
+.el_pc_img {
+    width: 100%;
+    transform: translate(3%,20%);
+}
+
+@media screen and (max-width:1024px) {
+    .ly_rental {
+        max-width: 90%;
+    }
+    .el_pc_img_sp {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .el_pc_img_lp {
+        display: none;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .el_rental_ttl {
+        font-size: 24px;
+    }
+    .el_rental_ttl_sub {
+        font-size: 16px;
+    }
+    .el_rental_number {
+        font-size: 16px;
+    }
+    .bl_rental_details_main {
+        font-size: 18px;
+    }
+    .bl_rental_details_sub {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:720px) {
+    .el_rental_ttl {
+        font-size: 24px;
+    }
+    .ly_rental_ttl {
+        margin-top: -10px;
+    }
+    .el_rental_ttl_sub {
+        font-size: 12px;
+    }
+    .el_rental_place {
+        font-size: 12px;
+    }
+    .el_rental_number {
+        font-size: 12px;
+    }
+    .ly_rental_content_box_top {
+        margin-top: -8px;
+    }
+    .ly_rental_content_box {
+        margin-top: -16px;
+    }
+    .bl_rental_details_main {
+        font-size: 12px;
+    }
+    .bl_rental_details_sub {
+        font-size: 12px;
+    }
+}
